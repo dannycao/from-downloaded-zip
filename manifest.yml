@@ -1,0 +1,10 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: ddcao-blank-06oct-1115
+  buildpack: sdk-for-nodejs
+  command: npm start
+  memory: 256M
+  domain: mybluemix.net
+  host: ddcao-blank-06oct-1115
